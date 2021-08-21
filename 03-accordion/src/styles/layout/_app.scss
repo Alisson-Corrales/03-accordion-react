@@ -1,0 +1,13 @@
+@use '../themes/defaultTheme' as *;
+@use '../util/variables' as *;
+@use '../util/mixins' as *;
+
+
+html{
+    background: $primary-1;
+}
+.container{
+    background: $white;
+    display: flex;
+    flex-direction: column;
+}
