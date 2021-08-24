@@ -8,13 +8,13 @@ function App() {
 
  return (
    <div className="container">
-          <div>{tabs.map(({id, title, info}) => {
+          <div>
+            {tabs.map(({id, title, info}) => {
                   return{
                     {title};
                   };
                 };
               )
-            );
           };
         </div>
     </div>
